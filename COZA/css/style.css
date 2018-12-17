@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+}
+body{
+    background-color: #ddd;
+    height: auto;
+}
+li{
+    list-style-type: none !important;
+    display: inline;
+}
+a{
+    /* text-decoration: none !important; */
+
+}
+form i{
+    font-size: 1.2em;
+    color: black;
+}
+.container-fluid{
+    width: 85% !important;
+
+}
+.navbar{
+    
+    background: #ddd !important;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.navbar-nav{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.nav-item{
+    margin:7px;
+}
+
+/* slider */
+.outer{
+    height: 600px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.outer i{
+    position: absolute;
+    top: 50%;
+    font-size: 2em;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+.outer i:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.outer i.fa-chevron-left{
+    left: 1%;
+}
+.outer i.fa-chevron-right{
+    right: 1%;
+}
+.lenta{
+    width: 6300px;
+    display: flex;
+    height: 100%;
+    position: relative;
+    left: 0;
+    transition: all 1s linear;
+}
+.lenta .inner{
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+}
+.lenta .inner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.navs ul{
+    display: flex;
+    justify-content: center;
+}
+.navs ul span{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: rgba(202, 195, 195, 0.5);
+    border: 1px solid #555;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.navs li.active span{
+    background-color: rgba(37, 34, 34, 0.5);
+}
+/* slider */
+/* bannerImg */
+
+.bannerBox{
+    margin-top: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.3s linear;
+    
+}
+.bannerBox:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2) ;
+}
+
+.bannerBox img{
+    width: 100% !important ;
+    height: 100% ;
+    position: relative;
+
+}
+
+.bannerBox h3{
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    font-weight: bold;
+   
+}
+.bannerBox p{
+    position: absolute;
+    top: 110px;
+    left: 60px;
+    font-weight: 400;
+}
+.shopNow{
+    position: absolute;
+   bottom: 20px;
+   left: 45px;
+   letter-spacing: -1px;
+   display: none;
+   font-weight: 400;
+}
+/* product */
+.product{
+    margin-top: 70px;
+}
+.product h3{
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.product ul{
+    margin-top: 30px;
+}
+.product ul li a{
+    color: black;
+    font-weight: 500;
+    transition: 3s linear ;
+    
+
+}
+.product ul li a:hover{
+    text-decoration: underline gray;
+
+}
+.conti{
+    margin-left: 20px;
+}
+
+/* productImages */
+.productImages{
+    margin-top: 70px;
+}
+.productImages img{
+    width: 100%;
+    transition: 0.5s linear;
+}
+.productImages img:hover{
+width: 95%;
+}
+.productImages .col-md-3{
+    margin-top: 50px;
+    cursor: pointer;
+}
+.productImages .col-md-12{
+    text-align: center;
+    margin-top: 100px;
+}
+.productImages .col-md-12 button{
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    background: #555;
+    color: white;
+    transition: 0.3s linear;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.productImages .col-md-12 button:hover{
+    background: teal;
+    color: white;
+}
+.filterBtn{
+    float: right;
+    margin-right: 2%;
+    width: 100px;
+    height: 40px;
+    transition: 0.5s linear;
+}
+.filterBtn:hover{
+    background: blue;
+    color: white;
+}
+/* footer */
+
+.bottom{
+    margin-top: 130px;
+    background: black;
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+.bottom .col-md-3 h5{
+margin: 60px 0px;
+text-transform: uppercase;
+font-size: 0.93em;
+}
+.bottom .col-md-3 p{
+    color: gray;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.bottom .col-md-3 p:hover{
+    color: white;
+
+}
+.bottom button{
+border-radius: 40px;
+width: 100px;
+height: 40px;
+background: blue;
+color: white;
+transition: 0.6s linear;
+cursor: pointer;
+}
+.bottom button:hover{
+    background: blueviolet;
+    color: black;
+}
+.bottom .wrapper{
+    margin-top: 50px;
+}
+
+/* blog */
+.blog{
+    margin-top: 60px;
+}
+.blogImage img{
+    width: 100% ;
+    height: 250px;
+    object-fit: cover;
+
+} 
+.innerImage{
+
+}
+
+.innerImage img{
+    width: 100%;
+}
+.innerRight .input-group{
+    width: 250px;
+
+
+}
+.innerRight .input-group input{
+    border-radius: 100px;
+    height: 50px;
+    padding: 10px 25px;
+    
+}
