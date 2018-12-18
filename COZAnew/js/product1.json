@@ -1,0 +1,28 @@
+[
+	{
+        "ProductPhoto":"images/product-01.jpg",
+        "ProductName":"kele"
+    },
+    {
+        "ProductPhoto":"images/product-02.jpg",
+        "ProductName":"rauf"
+    }
+    ,
+    {
+        "ProductPhoto":"images/product-03.jpg",
+        "ProductName":"vaqif"
+    },
+    {
+        "ProductPhoto":"images/product-04.jpg",
+        "ProductName":"vaqif"
+    },
+    {
+        "ProductPhoto":"images/product-05.jpg",
+        "ProductName":"vaqif"
+    },
+    {
+        "ProductPhoto":"images/product-06.jpg",
+        "ProductName":"tukezban"
+    }
+
+]
